@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="shopping-kart.css" />
+    <title>Your shopping kart</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="register__heading">Buy Now</h1>
+      <form action="https://www.townway.com.tw/auth" method="POST" class="form">
+        <div class="name">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="name" class="input__name" />
+        </div>
+
+        <div class="email">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="email"
+            class="input__email"
+          />
+        </div>
+        <div class="username">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="username"
+            class="input__username"
+          />
+        </div>
+        <div class="address">
+          <label for="pass">Address:</label>
+          <input
+            type="input"
+            id="address"
+            placeholder="address"
+            class="input__address"
+          />
+        </div>
+        <div class="form__button-wrap">
+          <button type="button" class="button cookie-btn">show cookies value</button>
+        </div>
+        <div class="form__button-wrap">
+          <button type="button" class="button">Buy Now</button>
+        </div>
+  
+        <p class="message"></p>
+      </form>
+
+    <script src="shopping-kart.js"></script>
+  </body>
+</html>

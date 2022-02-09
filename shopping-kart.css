@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --color-red: #6f4600;
+  --color-gold: #ffe7b7;
+  --color-orange: #ea9e06;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #eee;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 50rem;
+  font-size: 2rem;
+  border-radius: 3px;
+}
+.register__heading {
+  color: var(--color-orange);
+  text-align: center;
+  margin: 1rem 0 2rem 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name,
+.email,
+.username,
+.input__address {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8rem;
+}
+label {
+  color: var(--color-red);
+  margin-bottom: 0.1rem;
+}
+input {
+  background-color: #eee;
+  border-radius: 3px;
+  border: var(--color-red) 1px solid;
+  padding: 0.5rem;
+  width: 30rem;
+}
+input::placeholder {
+  color: var(--color-red);
+  font-size: 1.6rem;
+  opacity: 0.4;
+}
+
+.form__button-wrap {
+  display: flex;
+  justify-content: center;
+}
+.active {
+  display: none;
+}
+.button {
+  color: var(--color-red);
+  background-color: var(--color-gold);
+  border-radius: 10px;
+  font-size: 2.5rem;
+  padding: 0.3rem 1rem;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2rem;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--color-orange);
+}
+
+.cookie-btn {
+  color: var(--color-gold);
+  font-size: 1.5rem;
+  background-color: var(--color-red);
+  margin-bottom: 2rem;
+}
